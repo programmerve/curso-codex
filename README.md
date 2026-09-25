@@ -1,21 +1,53 @@
 # Curso Codex
 
-Curso interactivo para aprender a trabajar con herramientas avanzadas de IA, automatización y productividad digital, estructurado en niveles, capítulos y lecciones prácticas.
+Curso interactivo para aprender a trabajar con inteligencia artificial aplicada, automatización de flujo de trabajo y productividad digital usando herramientas como Codex, ChatGPT, GitHub, Linear, agentes, MCP y más.
 
-## ¿Qué incluye?
+## Descripción general
 
-- Nivel básico: fundamentos, contexto, sesión cloud, CLI y flujo de trabajo.
-- Nivel intermedio: GitHub, Linear, colaboración y automatización en equipos.
-- Nivel avanzado: agentes, habilidades, MCP, steering, workflows y arquitectura con IA.
-- Contenido didáctico con teoría, ejemplos y práctica guiada.
-- Checkpoints por lección para validar comprensión.
+Este proyecto está diseñado como una experiencia de aprendizaje guiada en niveles, con teoría, ejemplos reales, práctica, checkpoints y evaluaciones. La idea es que el usuario no solo lea contenido, sino que valide su comprensión en cada paso del proceso.
+
+El curso está pensado para personas que desean:
+
+- entender cómo funciona una sesión cloud y cómo trabajar con contexto,
+- utilizar la línea de comandos de forma más efectiva,
+- colaborar con GitHub y Linear en proyectos reales,
+- integrarse con herramientas del ecosistema de IA y productividad,
+- avanzar hacia sistemas más complejos con agentes, habilidades, MCP y workflows.
+
+## Características
+
+- Estructura por niveles: básico, intermedio y avanzado.
+- Organización por capítulos y lecciones.
+- Teoría, ejemplo y práctica en cada lección.
+- Checkpoints de comprensión por lección.
 - Exámenes de capítulo y examen final por nivel.
-- Progreso persistente en el navegador mediante localStorage.
-- Interfaz responsive para estudiar desde escritorio o móvil.
+- Progreso persistente en el navegador.
+- Interfaz responsive para estudio desde escritorio y móvil.
+- Enfoque práctico, orientado a la ejecución real del trabajo.
 
-## Objetivo del proyecto
+## Mapa curricular
 
-Este curso está pensado para personas que quieren aprender a usar Codex, ChatGPT y herramientas relacionadas de manera aplicada, con foco en productividad, colaboración, automatización y ejecución real en flujos de trabajo de desarrollo y operación.
+### Nivel básico
+
+- Fundamentos de Codex y workflows de IA.
+- Sesión cloud y manejo de contexto.
+- Uso de CLI y terminal.
+- Preparación de prompt, objetivos y ejecución.
+
+### Nivel intermedio
+
+- GitHub para colaboración y proyectos.
+- Linear para gestión de tareas y seguimiento.
+- Integraciones con flujo de trabajo de equipos.
+- Automatización y coordinación entre herramientas.
+
+### Nivel avanzado
+
+- Agentes y automatización inteligente.
+- Habilidades y configuraciones avanzadas.
+- MCP y conectividad entre sistemas.
+- Steering, orquestación y arquitectura de IA.
+- Desarrollo de workflows más robustos y escalables.
 
 ## Estructura del proyecto
 
@@ -28,48 +60,57 @@ Este curso está pensado para personas que quieren aprender a usar Codex, ChatGP
 └── .git/
 ```
 
-## Cómo usarlo
+## Cómo ejecutar el curso
 
-1. Clona este repositorio.
-2. Abre `index.html` en tu navegador.
+### Opción 1: abrir directamente en navegador
+
+1. Clona el repositorio.
+2. Abre el archivo `index.html` en tu navegador.
 3. Navega por niveles, capítulos y lecciones.
-4. Responde los checkpoints y exámenes para avanzar en tu progreso.
+4. Responde los checkpoints y exámenes para avanzar.
 
-Si prefieres servirlo localmente con un servidor HTTP, puedes ejecutar:
+### Opción 2: servidor local
 
 ```bash
 python -m http.server 8000
 ```
 
-Luego abre:
+Luego abre en el navegador:
 
 ```text
 http://localhost:8000
 ```
 
-## Tecnologías principales
+## Flujo de aprendizaje
+
+El curso se desarrolla en este orden:
+
+1. Estudiar la teoría de la lección.
+2. Revisar el ejemplo práctico.
+3. Resolver la práctica guiada.
+4. Completar el checkpoint.
+5. Evaluar el capítulo con un examen.
+6. Avanzar al siguiente módulo.
+
+## Tecnologías utilizadas
 
 - HTML5
 - CSS3
 - JavaScript vanilla
-- LocalStorage para guardar progreso
+- LocalStorage para persistencia de progreso
 
-## Enfoque pedagógico
+## Objetivo pedagógico
 
-El curso combina:
-
-- explicación conceptual
-- ejemplos reales
-- ejercicios prácticos
-- validación rápida de conocimiento
-- evaluación final por módulo
+La intención del curso es que el estudiante no solo entienda conceptos, sino que los aplique en escenarios reales de trabajo con IA, automatización y colaboración digital. El enfoque combina conceptualización, práctica y validación continua.
 
 ## Repositorio
 
-Este proyecto se publica en GitHub para que puedas revisarlo, clonarlo y reutilizarlo.
-
-- URL: https://github.com/programmerve/curso-codex
+- GitHub: https://github.com/programmerve/curso-codex
 
 ## Licencia
 
-Este proyecto se distribuye con fines educativos y de demostración.
+Este proyecto se distribuye como material educativo y de demostración para uso académico y personal.
+
+## Estado del proyecto
+
+El curso está en una versión interactiva funcional con estructura curricular, navegación, evaluación y progreso persistente.
